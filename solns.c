@@ -7,9 +7,8 @@ int max (int a[],int m)
     {
         if (a[0]<a[i])
         a[0]=a[i];
-        z=a[i];
-        
     }
+	z = a[0];
     return z;
 }
 
